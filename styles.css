@@ -1,10 +1,5 @@
 body{
     background-color: rgba(0, 0, 0);
-    background: linear-gradient(
-        180deg,
-        rgb(8, 0, 50),
-        rgb(32, 32, 0)
-    )
 }
 svg {
     width: 100%;
