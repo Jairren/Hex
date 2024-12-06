@@ -68,7 +68,7 @@ function getQueryParams() {
     const params = new URLSearchParams(window.location.search);
     return {
         rows: parseInt(params.get('rows')) || 8,
-        cols: parseInt(params.get('cols')) || 8,
+        cols: parseInt(params.get('cols')) || 9,
         size: parseInt(params.get('size')) || 64,
         spacing: parseInt(params.get('spacing')) || 22
     };
