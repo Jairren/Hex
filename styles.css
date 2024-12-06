@@ -41,10 +41,10 @@ polygon:hover {
     filter: blur(4px);
 }
 .brightness {
-    filter: brightness(1);
+    filter: brightness(1.1);
 }
 .contrast {
-    filter: contrast(120%);
+    filter: contrast(130%);
 }
 .active {
     stroke: rgba(255, 217, 0, 0.5);
