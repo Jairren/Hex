@@ -21,7 +21,7 @@ line:hover {
 }
 
 .center-line:hover {
-    stroke: rgba(255, 223, 0, 0.25); /* Slightly lighter gold on hover */
+    stroke: rgba(255, 223, 0, 0.3); /* Slightly lighter gold on hover */
     filter: blur(3px);
 }
 
@@ -33,7 +33,7 @@ polygon {
 }
 polygon:hover {
     stroke: rgba(96, 96, 96, 0.25);
-    fill: rgba(255, 223, 0, 0.25);
+    fill: rgba(255, 223, 0, 0.3);
     filter: blur(3px);
 }
 
@@ -47,7 +47,7 @@ polygon:hover {
     filter: contrast(200%);
 }
 .active {
-    stroke: rgba(255, 217, 0, 0.6);
+    stroke: rgba(255, 217, 0, 0.5);
     stroke-width: 3;
-    fill: rgba(255, 223, 0, 0.25)
+    fill: rgba(255, 217, 0, 0.75)
 }
