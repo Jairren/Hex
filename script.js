@@ -70,7 +70,7 @@ function getQueryParams() {
         rows: parseInt(params.get('rows')) || 8,
         cols: parseInt(params.get('cols')) || 8,
         size: parseInt(params.get('size')) || 64,
-        spacing: parseInt(params.get('spacing')) || 20
+        spacing: parseInt(params.get('spacing')) || 22
     };
 }
 
