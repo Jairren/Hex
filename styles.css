@@ -6,7 +6,7 @@ svg {
     height: 100vh;
 }
 line {
-    stroke: rgba(196, 160, 0, 0.04);
+    stroke: rgba(196, 160, 0, 0.02);
     stroke-width: 3;
     cursor: pointer;
 }
@@ -15,7 +15,7 @@ line:hover {
     filter: blur(3px);
 }
 .center-line {
-    stroke: rgba(196,160, 0, 0.04); 
+    stroke: rgba(196,160, 0, 0.02); 
     stroke-width: 3;
     cursor: pointer;
 }
