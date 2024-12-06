@@ -69,7 +69,7 @@ function getQueryParams() {
     return {
         rows: parseInt(params.get('rows')) || 8,
         cols: parseInt(params.get('cols')) || 10,
-        size: parseInt(params.get('size')) || 64,
+        size: parseInt(params.get('size')) || 80,
         spacing: parseInt(params.get('spacing')) || 22
     };
 }
