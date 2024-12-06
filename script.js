@@ -52,7 +52,7 @@ function createHexagon(svg, startX, startY, size, offsetX, offsetY) {
     });
     centerPolyAngles.forEach(angle => {
         const centerPoly = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-        const CenterPolyPoints = {x1: startX + (size /3) + offsetX, y1: startY + offsetY + Math.sqrt(3) / 2 * (size /3),x2: startX + (size * (1- 1/3)) + offsetX, y2: startY + offsetY + Math.sqrt(3) / 2 * (size /3),x3: centerX, y3: centerY - (size /3)}
+        const CenterPolyPoints = {x1: startX + (size /3) + offsetX, y1: startY + offsetY + Math.sqrt(3) / 3 * (size /3),x2: startX + (size * (1- 1/3)) + offsetX, y2: startY + offsetY + Math.sqrt(3) / 3 * (size /3),x3: centerX, y3: centerY - (size /3)}
         centerPoly.setAttribute("points", `${CenterPolyPoints.x1},${CenterPolyPoints.y1} ${CenterPolyPoints.x2},${CenterPolyPoints.y2} ${CenterPolyPoints.x3},${CenterPolyPoints.y3}`);
         centerPoly.classList.add("polygon", "center-poly");
         centerPoly.setAttribute("transform", `rotate(${angle},${centerX},${centerY})`);
